@@ -25,6 +25,33 @@ It provides meaningful analytics across geography, failure timing, mileage, and 
 - **RPivotTable** for dynamic pivot tables
 - **dplyr**, **tidyr** for data preprocessing
 
+  ## 📈 Dataset Details
+
+- **Source**: [Kaggle - Vehicle Failure Dataset](https://www.kaggle.com/)
+- **Attributes**:
+  - `fm`: Failure Month
+  - `Mileage`: Vehicle mileage at time of failure
+  - `lc`: Labor cost incurred
+  - `State`: State where failure was reported
+- **Preprocessing**:
+  - Handled missing and anomalous values (e.g., negative failure months).
+  - Summarized and filtered data for visualization readiness.
+
+## 💡 Future Enhancements
+
+- Build a **Shiny**-based version with advanced filtering options.
+- Integrate **machine learning models** for predicting vehicle failure likelihood.
+- Implement **live data ingestion** for real-time dashboard updates.
+- Add **download/export options** for reports and summaries.
+
+
+##💡 Future Enhancements
+- Build a Shiny-based version with advanced filtering options.
+- Integrate machine learning models for predicting vehicle failure likelihood.
+- Implement live data ingestion for real-time dashboard updates.
+- Add download/export options for reports and summaries.
+
+
 ## 📂 Project Structure
 
 ```bash
@@ -33,23 +60,3 @@ It provides meaningful analytics across geography, failure timing, mileage, and 
 ├── vehicle.csv             # Raw dataset used for analysis
 ├── README.md               # Project documentation (this file)
 
-## 📈 Dataset Details
-- **Source: Kaggle** - Vehicle Failure Dataset
-
-## Attributes:
-
-- **fm** : Failure Month
-- **Mileage** : Vehicle mileage at time of failure
-- **lc** : Labor cost incurred
-- **State** : State where failure was reported
-
-## Preprocessing:
-
-- Handled missing and anomalous values (e.g., negative failure months).
-- Summarized and filtered data for visualization readiness.
-
-##💡 Future Enhancements
-- Build a Shiny-based version with advanced filtering options.
-- Integrate machine learning models for predicting vehicle failure likelihood.
-- Implement live data ingestion for real-time dashboard updates.
-- Add download/export options for reports and summaries.
